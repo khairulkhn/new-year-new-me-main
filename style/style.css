@@ -58,6 +58,7 @@
 .year-title {
     margin-bottom: 24px;
 }
+
 .plan {
     text-align: center;
     font-weight: 700;
@@ -93,20 +94,88 @@
     color: #737272;
 }
 
+/* gradient item */
 .gradient {
     background-image: url('../images/watch.png');
     background-repeat: no-repeat;
-    /* margin: 130px 350px; */
-    background-position: center;
+    color: white;
+    margin: 130px 300px 130px 400px;
+    height: 300px;
 }
-.gradient-title{
-    display: flex;
-    justify-content: center;
-    /* font-weight: 700;
+
+.gradient-title {
+    font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    /* color: #FFFFFF; */
-    /* padding: 59px 627px 59px 64px;
-    margin-bottom: 100px; */
+    text-align: left;
+    padding-top: 59px;
+    padding-left: 64px ;
+}
+.btn-call{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    color: #005FAC;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 24px;
+    margin-left: 64px;
+}
 
+.footer {
+    background-color: black;
+    height: 577px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 0px 130px 230px;
+
+}
+
+.input {
+    padding: 130px 229px 243px 0px;
+}
+
+.input-title {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+#footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+
+#footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+#email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+#phone {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#mail {
+    width: 325px;
+    height: 64px;
 }
