@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+
+/* Header and banner */
+.header {
+    text-align: right;
+    padding: 216px 230px 364px 845px;
+    font-family: 'Work Sans';
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+.banner-description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    color: #005FAC;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* middle section year topic */
+.section-middle {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 131px 322px 0px 306px;
+}
+
+.year-content {
+    margin-left: 87px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.year-title {
+    margin-bottom: 24px;
+}
+.plan {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+    padding: 0px 665px 0px 765px;
+}
+
+.plan-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 230px;
+    text-align: center;
+}
+
+#plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+
+#ptag {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+.gradient {
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    /* margin: 130px 350px; */
+    background-position: center;
+}
+.gradient-title{
+    display: flex;
+    justify-content: center;
+    /* font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    /* color: #FFFFFF; */
+    /* padding: 59px 627px 59px 64px;
+    margin-bottom: 100px; */
+
+}
